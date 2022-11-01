@@ -1,0 +1,2413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Board of Election Commissioners for the City of Chicago
+  </title>
+  <link href="../css/site.css?20200718" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+   var current_path = window.location.pathname.split('/').pop();
+  </script>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-59933164-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <style>
+   .table-header-rotated th.rotate-45{
+  height: 160px;
+  width: 40px;
+  min-width: 40px;
+  max-width: 40px;
+  position: relative;
+  vertical-align: bottom;
+  padding: 0;
+  font-size: 12px;
+  line-height: 0.8;
+}
+
+.table-header-rotated th.rotate-45 > div{
+  position: relative;
+  top: 0px;
+  left: -80px; /* 80 * tan(45) / 2 = 40 where 80 is the height on the cell and 45 is the transform angle*/
+  height: 100%;
+  -ms-transform:skew(45deg,0deg);
+  -moz-transform:skew(45deg,0deg);
+  -webkit-transform:skew(45deg,0deg);
+  -o-transform:skew(45deg,0deg);
+  transform:skew(45deg,0deg);
+  overflow: hidden;
+
+}
+
+.table-header-rotated th.rotate-45 span {
+  -ms-transform:skew(-45deg,0deg) rotate(45deg);
+  -moz-transform:skew(-45deg,0deg) rotate(45deg);
+  -webkit-transform:skew(-45deg,0deg) rotate(45deg);
+  -o-transform:skew(-45deg,0deg) rotate(45deg);
+  transform:skew(-45deg,0deg) rotate(45deg);
+  position: absolute;
+  bottom: 120px; /* 40 cos(45) = 28 with an additional 2px margin*/
+  left: -25px; /*Because it looked good, but there is probably a mathematical link here as well*/
+  display: inline-block;
+  width: 100%;
+  width: 85px; /* 80 / cos(45) - 40 cos (45) = 85 where 80 is the height of the cell, 40 the width of the cell and 45 the transform angle*/
+  text-align: left;
+  white-space: nowrap; /*whether to display in one line or not*/
+}
+  
+/*.table-striped-column > thead > tr th:nth-of-type(even) div {
+    background-color: #eee;
+}
+
+.table-striped-column > tbody > tr td:nth-of-type(even) {
+    background-color: #eee;
+}*/
+  </style>
+ </head>
+ <body>
+  <div id="page-wrap">
+   <div class="main">
+    <div class="filler">
+    </div>
+    <div class="top">
+     <div class="top_logo">
+      <a href="../en/home.html">
+       <img alt="Chicago Board of Elections Logo" src="../images/logo.jpg"/>
+      </a>
+     </div>
+     <div class="top_middle">
+      <div class="top_middle_welcome">
+       <h3>
+        <b>
+         Welcome,
+        </b>
+        Voters!
+       </h3>
+      </div>
+      <div class="top_middle_languages">
+       <h2>
+        <span style="color:#0078C1">
+         English
+        </span>
+        |
+        <a href="../sp/election-results.asp?election=25&amp;race=23&amp;ward=&amp;precinct=">
+         Español
+        </a>
+        |
+        <a href="../po/election-results.asp?election=25&amp;race=23&amp;ward=&amp;precinct=">
+         Polski
+        </a>
+        |
+        <a href="../ch/election-results.asp?election=25&amp;race=23&amp;ward=&amp;precinct=">
+         中文
+        </a>
+        |
+        <a href="../hi/election-results.asp?election=25&amp;race=23&amp;ward=&amp;precinct=">
+         हिंदी
+        </a>
+        |
+        <a href="../ko/" onclick="location.href=this.href+current_path;return false;">
+         한국어
+        </a>
+        |
+        <a href="../ta/" onclick="location.href=this.href+current_path;return false;">
+         Tagalog
+        </a>
+       </h2>
+      </div>
+     </div>
+     <div class="top_search">
+      <div class="top_search_home_l">
+       <h2>
+        <a href="../en/home.html">
+         Home
+        </a>
+       </h2>
+      </div>
+     </div>
+    </div>
+    <div class="dd_menu">
+     <ul id="menu">
+      <li>
+       <a href="../en/voting.html">
+        Voting
+       </a>
+       <ul>
+        <li>
+         <a href="../en/videos.html">
+          How-To Videos
+         </a>
+        </li>
+        <li>
+         <a href="../en/register-to-vote-change-of-address.html">
+          Register to Vote/Change of Address
+         </a>
+        </li>
+        <li>
+         <a href="../en/accessibility-voters-with-disabilities.html">
+          Accessibility/Voters with Disabilities
+         </a>
+        </li>
+        <li>
+         <a href="../en/vote-by-mail.html">
+          Vote By Mail
+         </a>
+        </li>
+        <li>
+         <a href="../drop-boxes.html">
+          Drop Boxes
+         </a>
+        </li>
+        <li>
+         <a href="../en/early-voting.html">
+          Early Voting
+         </a>
+        </li>
+        <li>
+         <a href="../en/your-voter-information.html">
+          Your Voter Information
+         </a>
+        </li>
+        <li>
+         <a href="../en/military-overseas-voters.html">
+          Military/Overseas Voters
+         </a>
+        </li>
+        <li>
+         <a href="../en/using-the-balloting-system.html">
+          Using the Balloting System
+         </a>
+        </li>
+        <li>
+         <a href="../en/offices-on-the-ballots.html">
+          Offices on the Ballots
+         </a>
+        </li>
+        <li>
+         <a href="../en/when-you-need-id-to-vote.html">
+          When You Need ID to Vote
+         </a>
+        </li>
+        <li>
+         <a href="../en/voters-bill-of-rights.html">
+          Voters’ Bill of Rights
+         </a>
+        </li>
+        <li>
+         <a href="../en/provisional-information.html">
+          Provisional Ballot Status
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="../en/participating.html">
+        Participating
+       </a>
+       <ul>
+        <li>
+         <a href="../en/serving-as-a-judge-of-election.html">
+          Serving as a Judge of Election
+         </a>
+        </li>
+        <li>
+         <a href="../en/serving-as-an-election-coordinator.html">
+          Serving as an Election Coordinator
+         </a>
+        </li>
+        <li>
+         <a href="../en/serving-as-a-voter-registrar.html">
+          Serving as a Voter Registrar
+         </a>
+        </li>
+        <li>
+         <a href="../en/serving-as-a-poll-watcher.html">
+          Serving as a Poll Watcher
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="../en/running-for-office.html">
+        Running for Office
+       </a>
+       <ul>
+        <li>
+         <a href="../en/petition-filing-and-objection-information.html">
+          Petition Filing/Objection Information
+         </a>
+        </li>
+        <li>
+         <a href="../en/offices-on-the-ballots.html">
+          Offices on the Ballots
+         </a>
+        </li>
+        <li>
+         <a href="../en/district-precinct-schedules.html">
+          District Precinct Schedules
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="../en/general-information.html">
+        General Information
+       </a>
+       <ul>
+        <li>
+         <a href="../en/videos.html">
+          How-To Videos
+         </a>
+        </li>
+        <li>
+         <a href="../en/frequently-asked-questions.html">
+          Frequently Asked Questions
+         </a>
+        </li>
+        <li>
+         <a href="../en/key-dates-and-fast-facts.html">
+          Key Dates/Fast Facts
+         </a>
+        </li>
+        <li>
+         <a href="../en/referenda-and-local-options-on-alcohol-sale.html">
+          Referenda/Local Options on Alcohol Sale
+         </a>
+        </li>
+        <li>
+         <a href="../en/ward-maps-and-aldermen.html">
+          Ward Maps &amp; Aldermen
+         </a>
+        </li>
+        <li>
+         <a href="../en/new-legislative-maps.html">
+          New Legislative Maps
+         </a>
+        </li>
+        <li>
+         <a href="../en/election-related-links.html">
+          Election-Related Links
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="../en/election-board.html">
+        Election Board
+       </a>
+       <ul>
+        <li>
+         <a href="../en/about-the-chicago-election-board.html">
+          About the Chicago Election Board
+         </a>
+        </li>
+        <li>
+         <a href="../en/board-meetings.html">
+          Board Meetings
+         </a>
+        </li>
+        <li>
+         <a href="../en/contact-us.html">
+          Contact Us
+         </a>
+        </li>
+        <li>
+         <a href="../en/job-and-contractor-opportunities.html">
+          Job &amp; Contractor Opportunities
+         </a>
+        </li>
+        <li>
+         <a href="../en/freedom-of-information-act-FOIA.html">
+          Freedom of Information Act (FOIA)
+         </a>
+        </li>
+        <li>
+         <a href="../en/19th-amendment.html">
+          19th Amendment
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="../en/news.html">
+        News
+       </a>
+      </li>
+      <li>
+       <a href="../en/election-results.html">
+        Election Results
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="main_body">
+     <div class="breadcrumbs">
+      <a href="../en/home.html">
+       Home
+      </a>
+      - Election Results
+     </div>
+     <div class="copy">
+      <h3 style="color:red">
+       Election Results
+      </h3>
+      <!-- TOTALS -->
+      <!-- Election -->
+      <span style="color:blue">
+       <b>
+        2011 Municipal General - 2/22/11
+       </b>
+      </span>
+      <br/>
+      <br/>
+      <!-- Election End -->
+      <span style="height: 32px; vertical-align: 16px">
+       Download Data in Excel:
+      </span>
+      <a href="../en/data-export.asp?election=25&amp;race=23&amp;ward=&amp;precinct=">
+       <img alt="Download Data in Excel" src="../images/XLIcon.jpe" style="height:38px; width:38px"/>
+      </a>
+      <br/>
+      <br/>
+      <!-- Race -->
+      <span style="color:red">
+       <b>
+        Alderman 11th Ward
+       </b>
+      </span>
+      <br/>
+      <br/>
+      <!--Race End -->
+      <!--Total Election and Race -->
+      <table cellpadding="0" cellspacing="0" class="table table-header-rotated table-striped table-hover table-striped-column" style="width:100%">
+       <!--<table style="width:100%" cellpadding="0" cellspacing="0">-->
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          Votes
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          JAMES A. BALCER
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          %
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          JOHN K. KOZLAR
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          %
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          CARL SEGVICH
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          %
+         </b>
+        </td>
+       </tr>
+       <!--Election = 210 and Race = 9 & 10-->
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11,026
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         6,767
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61.37%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         2,460
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22.31%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         1,799
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         16.32%
+        </td>
+       </tr>
+      </table>
+      <!--Total Election and Race End-->
+      <!-- Ward -->
+      <br/>
+      <table cellpadding="0" cellspacing="0" class="table table-header-rotated table-striped table-hover table-striped-column" style="width:100%">
+       <thead>
+        <tr style="height:25px">
+         <th>
+          <b>
+           Ward 11
+          </b>
+         </th>
+        </tr>
+        <tr style="text-align:center; height:25px">
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           Precinct
+          </b>
+         </td>
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           Votes
+          </b>
+         </td>
+         <!--Candidate Names-->
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           JAMES A. BALCER
+          </b>
+         </td>
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           %
+          </b>
+         </td>
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           JOHN K. KOZLAR
+          </b>
+         </td>
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           %
+          </b>
+         </td>
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           CARL SEGVICH
+          </b>
+         </td>
+         <td style="border:thin; border-style:solid; border-color:#0078C1">
+          <b>
+           %
+          </b>
+         </td>
+         <!-- Candidate Names End -->
+        </tr>
+       </thead>
+       <!-- Precinct -->
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         1
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         312
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         208
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         66.67%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         49
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15.71%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         55
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.63%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         2
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         234
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         141
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         60.26%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         66
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         28.21%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11.54%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         3
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         180
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         121
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         67.22%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         41
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22.78%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         10.00%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         4
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         235
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         140
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         59.57%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         70
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         29.79%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         25
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         10.64%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         5
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         141
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         80
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         56.74%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         39
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27.66%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15.60%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         6
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         270
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         136
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         50.37%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         75
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27.78%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         59
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21.85%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         7
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         222
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         144
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         64.86%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         54
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24.32%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         10.81%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         8
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         223
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         105
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         47.09%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         83
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         37.22%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         35
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15.70%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         9
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         166
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         112
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         67.47%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         14.46%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         30
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18.07%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         10
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         137
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         83
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         60.58%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         28
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         20.44%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         26
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18.98%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         369
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         209
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         56.64%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         92
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24.93%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         68
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18.43%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         12
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         271
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         175
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         64.58%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         74
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27.31%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         8.12%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         13
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         211
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         123
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         58.29%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         41
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19.43%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         47
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22.27%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         14
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         201
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         116
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         57.71%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11.94%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         30.35%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         210
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         136
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         64.76%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         51
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24.29%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         10.95%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         16
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         276
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         167
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         60.51%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         62
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22.46%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         47
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.03%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         307
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         179
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         58.31%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19.87%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         67
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21.82%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         191
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         116
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         60.73%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         47
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24.61%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         28
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         14.66%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         199
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         105
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         52.76%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         56
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         28.14%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         38
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19.10%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         20
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         193
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         125
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         64.77%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         45
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23.32%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11.92%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         224
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         147
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         65.63%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         48
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21.43%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         29
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         12.95%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         203
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         135
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         66.50%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         38
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18.72%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         30
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         14.78%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         177
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         113
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         63.84%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         31
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.51%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         33
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18.64%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         408
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         281
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         68.87%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         87
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21.32%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         40
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         9.80%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         25
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         231
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         160
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         69.26%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         47
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         20.35%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         10.39%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         26
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         288
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         190
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         65.97%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         70
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24.31%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         28
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         9.72%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         258
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         163
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         63.18%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         41
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15.89%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         54
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         20.93%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         28
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         172
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         126
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         73.26%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         34
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19.77%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         12
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         6.98%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         29
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         263
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         155
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         58.94%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         62
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23.57%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         46
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.49%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         30
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         217
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         131
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         60.37%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         62
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         28.57%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11.06%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         31
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         195
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         102
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         52.31%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         34
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.44%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         59
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         30.26%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         32
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         196
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         121
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61.73%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         52
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         26.53%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11.73%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         33
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         150
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         108
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         72.00%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         14.00%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         14.00%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         34
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         162
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         99
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61.11%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11.73%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         44
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27.16%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         35
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         351
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         220
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         62.68%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         98
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27.92%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         33
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         9.40%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         36
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         64
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         43
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         67.19%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         10
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15.63%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.19%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         37
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         313
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         206
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         65.81%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19.49%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         46
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         14.70%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         38
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         334
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         205
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61.38%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         77
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23.05%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         52
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15.57%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         39
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         355
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         233
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         65.63%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         60
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         16.90%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         62
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.46%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         40
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         154
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         101
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         65.58%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         32
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         20.78%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         13.64%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         41
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         148
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         71
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         47.97%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         58
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         39.19%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         12.84%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         42
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         185
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         100
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         54.05%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         34
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18.38%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         51
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27.57%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         43
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         267
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         156
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         58.43%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         44
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         16.48%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         67
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         25.09%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         44
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         229
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         121
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         52.84%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         57
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         24.89%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         51
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         22.27%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         45
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         124
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         61
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         49.19%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         21.77%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         36
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         29.03%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         46
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         150
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         106
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         70.67%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         6
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         4.00%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         38
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         25.33%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         47
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         201
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         106
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         52.74%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         56
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         27.86%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         39
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         19.40%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         48
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         108
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         77
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         71.30%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         18
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         16.67%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         13
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         12.04%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         49
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         221
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         122
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         55.20%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         74
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         33.48%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         25
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         11.31%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <tr style="text-align:center; height:25px">
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         50
+        </td>
+        <!-- Total Votes -->
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         130
+        </td>
+        <!-- Total Votes End -->
+        <!-- Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         87
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         66.92%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         20
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         15.38%
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         23
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         17.69%
+        </td>
+        <!-- Votes End -->
+       </tr>
+       <!-- Precinct End -->
+       <tr style="text-align:center; height:25px">
+        <!-- Ward Total Votes -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          Total
+         </b>
+        </td>
+        <!--Election = 210 and Race = 9 & 10-->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          11,026
+         </b>
+        </td>
+        <!-- Ward Total Votes End -->
+        <!-- Candidate Total Votes and Turnouts -->
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          6767
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          61.37%
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          2460
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          22.31%
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          1799
+         </b>
+        </td>
+        <td style="border:thin; border-style:solid; border-color:#0078C1">
+         <b>
+          16.32%
+         </b>
+        </td>
+        <!-- Candidate Total Votes and Turnouts End -->
+       </tr>
+      </table>
+      <!-- RACE and WARD -->
+      <br/>
+      <a href="javascript:history.back()">
+       Select new race
+      </a>
+      <br/>
+      <br/>
+      <a href="../en/election-results.html">
+       Select new election
+      </a>
+      <br/>
+      <br/>
+      <br/>
+     </div>
+    </div>
+    <div class="footer_bar">
+    </div>
+    <div class="footer_middle">
+     <div class="footer_contact">
+      <div class="copyblue_footer">
+       Contact Us
+      </div>
+      <br/>
+      <div class="copy_footer">
+       69 West Washington Street
+       <br/>
+       Suites 600/800
+       <br/>
+       Chicago, Illinois 60602
+       <br/>
+       <br/>
+       312.269.7900
+       <br/>
+       <br/>
+       <a href="../en/contact-us.html">
+        More
+       </a>
+       contact information
+      </div>
+      <br/>
+     </div>
+     <div class="footer_commissioners">
+      <div class="copyblue_footer">
+       Commissioners
+      </div>
+      <br/>
+      <div class="copy_footer">
+       Marisel A. Hernandez, Chair
+       <br/>
+       William J. Kresse, Commissioner/Secretary
+       <br/>
+       June A. Brown, Commissioner
+       <br/>
+       <br/>
+       Charles Holiday, Jr., Executive Director
+       <br/>
+       Sandra Aspera, Assistant Executive Director
+      </div>
+      <br/>
+     </div>
+     <div class="footer_follow">
+      <div class="copyblue_footer">
+       Follow Us
+      </div>
+      <br/>
+      <a href="https://www.facebook.com/pages/Voter-Engagement-Chicago-Board-of-Elections/112051748894387" target="_blank">
+       <img alt="Facebook Logo" src="../images/facebook.png"/>
+      </a>
+      <a href="https://twitter.com/ChicagoElection" target="_blank">
+       <img alt="Twitter Logo" src="../images/twitter.png"/>
+      </a>
+      <a href="http://www.youtube.com/user/ChicagoElections" target="_blank">
+       <img alt="YouTube Logo" src="../images/youtube.png"/>
+      </a>
+     </div>
+    </div>
+    <div class="footer">
+     <div class="footer_1">
+      <div class="footer_copy">
+       <a href="../en/voting.html">
+        <b>
+         Voting
+        </b>
+       </a>
+       <br/>
+       <a href="../en/videos.html">
+        How-To Videos
+       </a>
+       <br/>
+       <a href="../en/register-to-vote-change-of-address.html">
+        Register to Vote/Change of Address
+       </a>
+       <br/>
+       <a href="../en/accessibility-voters-with-disabilities.html">
+        Accessibility/Voters with Disabilities
+       </a>
+       <br/>
+       <a href="vote-by-mail.html">
+        Vote By Mail
+       </a>
+       <br/>
+       <a href="drop-boxes.html">
+        Drop Boxes
+       </a>
+       <br/>
+       <a href="early-voting.html">
+        Early Voting
+       </a>
+       <br/>
+       <a href="../en/your-voter-information.html">
+        Your Voter Information
+       </a>
+       <br/>
+       <a href="../en/your-voter-information.html">
+        Your Registration Status
+       </a>
+       <br/>
+       <a href="../en/your-voter-information.html">
+        Your Polling Place
+       </a>
+       <br/>
+       <a href="../en/your-voter-information.html">
+        Your Public Officials
+       </a>
+       <br/>
+       <a href="../en/your-voter-information.html">
+        Your Sample Ballot
+       </a>
+       <br/>
+       <a href="../en/military-overseas-voters.html">
+        Military/Overseas Voters
+       </a>
+       <br/>
+       <a href="../en/using-the-balloting-system.html">
+        Using the Balloting System
+       </a>
+       <br/>
+       <a href="../en/offices-on-the-ballots.html">
+        Offices on the Ballots
+       </a>
+       <br/>
+       <a href="../en/when-you-need-id-to-vote.html">
+        When You Need ID to Vote
+       </a>
+       <br/>
+       <a href="../en/voters-bill-of-rights.html">
+        Voters’ Bill of Rights
+       </a>
+       <br/>
+       <a href="../en/provisional-information.html">
+        Provisional Ballot Status
+       </a>
+       <br/>
+       <br/>
+      </div>
+     </div>
+     <div class="footer_2">
+      <div class="footer_copy">
+       <a href="../en/participating.html">
+        <b>
+         Participating
+        </b>
+       </a>
+       <br/>
+       <a href="../en/serving-as-a-judge-of-election.html">
+        Serving as a Judge of Election
+       </a>
+       <br/>
+       <a href="../en/serving-as-an-election-coordinator.html">
+        Serving as an Election Coordinator
+       </a>
+       <br/>
+       <a href="../en/serving-as-a-voter-registrar.html">
+        Serving as a Voter Registrar
+       </a>
+       <br/>
+       <a href="../en/serving-as-a-poll-watcher.html">
+        Serving as a Poll Watcher
+       </a>
+       <br/>
+       <br/>
+       <a href="../en/running-for-office.html">
+        <b>
+         Running for Office
+        </b>
+       </a>
+       <br/>
+       <a href="../en/petition-filing-and-objection-information.html">
+        Petition Filing/Objection Information
+       </a>
+       <br/>
+       <a href="../en/offices-on-the-ballots.html">
+        Offices on the Ballots
+       </a>
+       <br/>
+       <a href="../en/district-precinct-schedules.html">
+        District Precinct Schedules
+       </a>
+       <br/>
+       <br/>
+       <a href="../en/general-information.html">
+        <b>
+         General Information
+        </b>
+       </a>
+       <br/>
+       <a href="../en/videos.html">
+        How-To Videos
+       </a>
+       <br/>
+       <a href="../en/frequently-asked-questions.html">
+        Frequently Asked Questions
+       </a>
+       <br/>
+       <a href="../en/key-dates-and-fast-facts.html">
+        Key Dates/Fast Facts
+       </a>
+       <br/>
+       <a href="../en/referenda-and-local-options-on-alcohol%20Sale.html">
+        Referenda/Local Options on Alcohol Sale
+       </a>
+       <br/>
+       <a href="../en/ward-maps-and-aldermen.html">
+        Ward Maps &amp; Aldermen
+       </a>
+       <br/>
+       <a href="../en/election-related-links.html">
+        Election-Related Links
+       </a>
+       <br/>
+       <br/>
+      </div>
+     </div>
+     <div class="footer_3">
+      <div class="footer_copy">
+       <a href="../en/election-board.html">
+        <b>
+         Election Board
+        </b>
+       </a>
+       <br/>
+       <a href="../en/about-the-chicago-election-board.html">
+        About the Chicago Election Board
+       </a>
+       <br/>
+       <a href="../en/board-meetings.html">
+        Board Meetings
+       </a>
+       <br/>
+       <a href="../en/contact-us.html">
+        Contact Us
+       </a>
+       <br/>
+       <a href="../en/job-and-contractor-opportunities.html">
+        Job &amp; Contractor Opportunities
+       </a>
+       <br/>
+       <a href="../en/freedom-of-information-act-FOIA.html">
+        Freedom of Information Act (FOIA)
+       </a>
+       <br/>
+       <a href="../en/19th-amendment.html">
+        19th Amendment
+       </a>
+       <br/>
+       <br/>
+       <a href="../en/news.html">
+        <b>
+         News
+        </b>
+       </a>
+       <br/>
+       <br/>
+       <a href="../en/election-results.html">
+        <b>
+         Election Results
+        </b>
+       </a>
+       <br/>
+       <br/>
+       <a href="../en/home.html">
+        <b>
+         Home
+        </b>
+       </a>
+       <br/>
+       <br/>
+      </div>
+     </div>
+    </div>
+    <div class="copyright">
+     <div class="copyright_copy">
+      Board of Election Commissioners for the City of Chicago ©
+      <script type="text/javascript">
+       document.write(new Date().getFullYear())
+      </script>
+      All Rights Reserved.
+     </div>
+     <br/>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
