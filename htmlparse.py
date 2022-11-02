@@ -1,24 +1,40 @@
 from bs4 import BeautifulSoup
+import pandas as pd
+
 
 def clean_pct(s):
     return(float(s.replace('%', 'e-2')))
 
-with open(f"electionresults/result_9_12.html", 'r', encoding="utf-8") as file:
-    soup = BeautifulSoup(file.read())
+def parsefile(fp):
+    with open(fp, 'r', encoding="utf-8") as file:
+        soup = BeautifulSoup(file.read(),
+                    features="lxml")
 
-contents = soup.find_all("div", "main_body")[0].contents[3].contents
+    contents = soup.find_all("div", "main_body")[0].contents[3].contents
 
-election_name = contents[7]
-race_name = contents[25]
+    election_name = contents[7].get_text(strip=True)
+    race_name = contents[25].get_text(strip=True)
 
-ward_results_table = soup.find_all("table")[0]
+    ward_results_rows = soup.find_all("table")[0].find_all("tr")
 
-ward_results = [td for td in ward_results_table.stripped_strings]
+    candidate_row = [td for td in ward_results_rows[0].stripped_strings]
+    result_row = [td for td in ward_results_rows[1].stripped_strings] 
 
-alder_results = {
-    ward_results[1]: clean_pct(ward_results[7]),
-    ward_results[3]: clean_pct(ward_results[9])}
+    n_candidates = (len(candidate_row) - 1) // 2
 
-print(alder_results)
+    d = []
 
-#breakpoint()
+    for i in range(n_candidates):
+        indx = i * 2 + 1
+        candidate = tuple([
+            election_name,
+            race_name,
+            candidate_row[indx],
+            int(result_row[indx].replace(',',''))
+        ])
+        d.append(candidate)
+
+    d = pd.DataFrame.from_records(d, columns=["election", "race", "candidate", "votes"])
+    
+    return d
+
